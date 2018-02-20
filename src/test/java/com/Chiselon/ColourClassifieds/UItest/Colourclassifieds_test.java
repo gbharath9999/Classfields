@@ -21,7 +21,7 @@ public class Colourclassifieds_test extends Baseutils
 {
 	
 	@Test
-	public void test() 
+	public void test() throws InterruptedException 
 	{
 		
 		System.out.println(System.getProperty("user.dir"));
@@ -36,6 +36,7 @@ public class Colourclassifieds_test extends Baseutils
 		lp1.username().sendKeys(prop.getProperty("emailid"));
 		lp1.password().sendKeys(prop.getProperty("password"));
 		lp1.submit().click();
+		Thread.sleep(2000);
 		hp.logoutclick().click();
 		
 	}

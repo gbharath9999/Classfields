@@ -14,12 +14,11 @@ public class Loginpage_PO extends Baseutils
 	{
 		
 		LoginPageObjects lp=new LoginPageObjects(driver);
-		lp.username().sendKeys("abc@gmail.com");
-		lp.password().sendKeys("123456");
+		lp.username().sendKeys("lnv@gmail.com");
+		lp.password().sendKeys("1234567");
 		lp.submit().click();
 		
 	}
-	public void 
 	
 	
 	
