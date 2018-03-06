@@ -3,11 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Chiselon.ColourClassifieds.Pages.Loginpage_PO">
+      <class name="com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test">
         <methods>
-          <include name="Login"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.Chiselon.ColourClassifieds.Pages.Loginpage_PO -->
+      </class> <!-- com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9644" started-at="2018-02-20T07:07:29Z" finished-at="2018-02-20T07:07:39Z">
+  <suite name="Default suite" duration-ms="7221" started-at="2018-02-20T05:06:58Z" finished-at="2018-02-20T05:07:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9644" started-at="2018-02-20T07:07:29Z" finished-at="2018-02-20T07:07:39Z">
+    <test name="Default test" duration-ms="7221" started-at="2018-02-20T05:06:58Z" finished-at="2018-02-20T05:07:05Z">
       <class name="com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test@45820e51]" name="test" duration-ms="9603" started-at="2018-02-20T12:37:29Z" finished-at="2018-02-20T12:37:39Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test@100955a]" name="test" duration-ms="7196" started-at="2018-02-20T10:36:58Z" finished-at="2018-02-20T10:37:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
