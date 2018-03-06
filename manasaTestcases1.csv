@@ -1,0 +1,148 @@
+Component,User Action,Pre Condition,Expected Result,Priority,Requires File,Steps,Status,,,
+Creating a new User_Manasa,Register,,The user should be registered with valid credentials,High,,Enter Url of the application||Enter name in the name field of the apllication||Enter user valid email address in the email id field||Enter valid username||Enter valid password||click on 'I agree terms and conditions checkbox||click on submit button,,,,
+Creating a new User_Manasa,login_Forgot password,"1.Enter url
+2.Navigate to login page ",The username should be accepted||The user should navigate to another page asking details of email id or mobile number||It should accept the valid email address and corresponding link is sent to the mail id which is given||It should navigate to login page to reset the password||The password should be updated and Login page should get displayed||The user should be able to logon to the application,High,,Enter valid userid||click on forgot password link||Enter valid Email id or phone number||open the mail account and click on the reset password link ||Enter reset password and confirm password and click on submit button||Enter valid id and password in the login page click on submit button,,,,
+Creating a new User_Manasa,Logout,the user should be on the homepage after logging into the application,the user should be logged out from the application,Medium,,"Do any action whether it is posting an ad, viewing an ad, browsing the pictures, editing an ad or deleting an ad and then click on logout ",,,,
+,,,,,,,,,,
+,Categories Selection,"enter url and navigate
+to the homepage ",check whether the user is able to see all the categories in the site,,,click on categories tab,,,,
+,,,It should navigate to the corresponding  page displaying all the respected subcategories of the selected category,,,"Check for the categories listed in the test data column
+Select each category at atime ",,,,
+,,login with valid login credentials by registered user and power user each at a time,It should navigate to the corresponding  page displaying all the respected subcategories of the selected category,,,Repeat the above step for Register user and power user,,,,
+,,,,,,,,,,
+PostAd_Manasa,Post ads_images_power user,"login with power user credentials 
+navigate to Automobiles category",The user should navigate to the another page asking the details about the ad of that category ||The details needs to be accepted upon entering||Browse window should be displayed  and allow to select the file||The image selected needs to be accepted and image should be uploaded in the application||The uploaded image needs to be shown under view ads section||should be visible under view ads section of that category||,High,,"click on the post ads button||Enter the details of the ad like :
+1.Title:
+2.Description:
+3.How many days you want your ad to run||click on upload ad button||select the image that we want to upload and click on ok ||click on view ads button||Repeat the above steps for all categories  and subcategories mentioned",,,,
+,,,,,,,,,,
+PostAd_Manasa,Post ads_Video_power user,"login with power user credentials 
+navigate to Automobiles category",The user should navigate to the another page asking the details about the ad of that category ||The details needs to be accepted upon entering the details||Browse window should be displayed  and allow to select the file||The video selected needs to be accepted and video should be uploaded in the application||The uploaded video needs to be shown under view ads section||The video that is uploaded for different categories should be visible under view ads section of that category,Medium,,"click on the post ads button||Enter the details of that ad like :
+1.Title:
+2.Description:
+3.How many days you want your ad to run||click on upload ad button||select the video that we want to upload and click on ok ||click on view ads button||Repeat the above steps for all categories  and subcategories mentioned",,,,
+,,,,,,,,,,
+PostAd_Manasa,Post ads_images_registered user,"login with registered user credentials 
+navigate to Automobiles category",The user should navigate to the another page asking the details about the ad of that category ||The details needs to be accepted upon entering the details||Browse window should be displayed  and allow to select the file||The image selected needs to be accepted and image should be uploaded in the application||The uploaded image needs to be shown under view ads section||The image that is uploaded for different categories should be visible under view ads section of that category,High,,"click on the post ads button||Enter the details of that ad like :
+1.Title:
+2.Description:
+3.How many days you want your ad to run||click on upload ad button||select the image that we want to upload and click on ok||click on view ads button||Repeat the above steps for all categories  and subcategoriesmentioned",,,,
+,,,,,,,,,,
+PostAd_Manasa,Post ads_Video_registered user,"login with registered user credentials 
+navigate to Automobiles category",The user should navigate to the another page asking the details about the ad of that category ||The details needs to be accepted upon entering the details||Browse window should be displayed  and allow to select the file||The video selected needs to be accepted and video should be uploaded in the application||The uploaded video needs to be shown under view ads section||The video that is uploaded for different categories should be visible under view ads section of that category,Low,,"click on the post ads button||Enter the details of that ad like :
+1.Title:
+2.Description:
+3.How many days you want your ad to run||click on upload ad button||select the video that we want to upload and click on ok ||click on view ads button||Repeat the above steps for all categories  and subcategoriesmentioned",,,,
+,,,,,,,,,,
+Delete ad_Manasa,delete ads_image_power user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3. post an image in the selected category(call R_03_Ts_01_TC_003)",It should display all the images related to Automobiles category||The image needs to be selected for deletion||The deleted image should not be visible under view ads button||The selected image needs to be get deleted for all categories and subcategories,Low,,click on delete ads button||select the image that we want to delete||click on view ads button||Repeat the above steps for all categories  and subcategories mentioned,,,,
+,,,,,,,,,,
+Delete ad_Manasa,delete ads_video_power user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3. post an ad in the selected category(call R_03_Ts_01_TC_003)",It should display all the ads(videos) related to Automobiles category||The video needs to be selected for deletion||The deleted video should not be visible under view ads button||The selected video needs to be get deleted for all categories and subcategories,Low,,click on delete ads button||select the video that we want to delete||click on view ads button||Repeat the above steps for all categories  and subcategoriesmentioned,,,,
+,,,,,,,,,,
+View Ad_Manasa,view ads_guest user,"1.enter url 
+2. navigate to the Automobiles category 
+3. post an ad in the selected category with power user or registered user valid credentials(call R_03_Ts_01_TC_003)",It should navigate to another page showing the imaged and videos of that category||The video should be played once clicking on that video2||The video should be played for all categories and subcategories,High,,click on view ads button||select the video that we want to view||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+View Ad_Manasa,view ads_Registered  user,"1.login with registered user credentials 
+2.navigate to Automobiles category 
+3. post an ad in the selected category(call R_03_Ts_01_TC_003)",It should navigate to another page showing the imaged and videos of that category||The video should be played after clicking on that video||The video should be played for all categories and subcategories,High,,click on view ads button||select the video that we want to view||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+View Ad_Manasa,view ads_power  user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3. post an ad in the selected category(call R_03_Ts_01_TC_003)",It should navigate to another page displaying the images and videos of that category||The video should be played once clicking on that video||The video should be played for all categories and subcategories,High,,click on view ads button||select the image video that we want to view||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Edit ad_Manasa,Edit ads_Registed user,"1.login with registered user credentials 
+2.navigate to Automobiles category 
+3. post an image in the selected category(call R_03_Ts_01_TC_003)",It should navigate to another page displaying the images and videos of that category||It should naviagate to another page displaying the image information||The information needs to be accepted||The changed image ad needs to be displayed in the view ads section,Medium,,"click on edit ad button||select the image and click on it||edit the image information like
+1.upload the latest image
+2.Decription
+3.How many days you want your ad to run||view the ad again to check the changes",,,,
+,,1.post an ad in the selected category(call R_03_Ts_01_TC_003),It should navigate to another page displaying the images and videos of that category||The video needs to be selected||The changes needs to be accepted ||The changed viedo ad needs to be displayed in the view ads section||The edited ads needs to be diplayed for all categories and subcategories,,,click on edit ad button||select the video and click on it||edit the video ||view the ad again to check the changes||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Edit ad_Manasa,Edit ads_power user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3.post an image in the selected category(call R_03_Ts_01_TC_003)",It should navigate to another page displaying the images and videos of that category||It should naviagate to amother page displaying the image information||The information needs to be accepted||The changed image ad needs to be displayed in the view ads section,Medium,,"click on edit ad button||select the image and click on it||edit the image information like
+1.upload the latest image
+2.Decription
+3.How many days you want your ad to run||view the ad again to check the changes",,,,
+,,1.post an ad in the selected category(call R_03_Ts_01_TC_003),It should navigate to another page displaying the images and videos of that category||The video needs to be selected||The changes needs to be accepted ||The changed viedo ad needs to be displayed in the view ads section||The edited ads needs to be diplayed for all categories and subcategories,,,click on edit ad button||select the video and click on it||edit the video ||view the ad again to check the changes||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Browse Pictures_Manasa,Browse pictures_guest user,"1.Enter url 
+2.navigate to Automobiles categories page 
+3.post an image in the selected category(call R_03_Ts_01_TC_003)",It should display the pictures related to Automobiles category||It should display the pictures related to that category,Medium,,click on browse pictures||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Browse Pictures_Manasa,Browse pictures_registered user,"1.login with registered user credentials 
+2.navigate to Automobiles category 
+3.post an image in the selected category(call R_03_Ts_01_TC_003)",It should display the pictures related to Automobiles category||It should display the pictures related to that category,Medium,,click on browse pictures||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Browse Pictures_Manasa,Browse pictures_power user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3.post an image in the selected category(call R_03_Ts_01_TC_003)",It should display the pictures related to Automobiles category||It should display the pictures related to that category,Medium,,click on browse pictures||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Top Ads_Manasa,Top Ads_guest user,"1.Enter url 
+2.navigate to Automobiles categories page 
+3.post the ads according to the test data column by using registed user or power user valid login credentials(call R_03_Ts_01_TC_003)
+4.view the ads (call R_05_Ts_01_TC_001)",It should display the ads which was viewed frequently (the ad which was viewed 5 times in test data) by all users for Automobiles category||It should display the ads which was viewed most by all users for that category,Medium,,click on top ads||Repeat the above steps for all the categories and sub categories each one at a time,,,,
+,,,,,,,,,,
+Top Ads_Manasa,Top Ads_registered user,"1.login with registered user credentials 
+2.navigate to Automobiles category
+3.post the ads according to the test data column(call R_03_Ts_01_TC_003)",It should display the ads which was viewed frequently (the ad which was viewed 5 times in test data) by all users for Automobiles category||It should display the ads which was viewed most by all users for that category,Medium,,click on top ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Top Ads_Manasa,Top Ads_power user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3.post the ads according to the test data column(call R_03_Ts_01_TC_003)",It should display the ads which was viewed frequently (the ad which was viewed 5 times in test data column) by all users for Automobiles category||It should display the ads which was viewed most by all users for that category,Medium,,click on top ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Latest Ads_Manasa,Latest ads_guest user,"1.Enter url 
+2.navigate to Automobiles categories page 
+3.post the ads according to the test data column(call R_03_Ts_01_TC_003)",It should display the latest ads (the ad which was posted on 14/11/2017 )  of Automobiles category||It should display the latest ads of that particular category,Medium,,click on latest ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Latest Ads_Manasa,Latest ads_registered user,"1.login with registered user credentials 
+2.navigate to Automobiles category 
+3.post ads according to the test data column",It should display the latest ads (the ad which was posted on 14/11/2017 ) of Automobiles category||It should display the latest ads of that particular category,Medium,,click on latest ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Latest Ads_Manasa,Latest ads_power user,"1.login with power user credentials 
+2.navigate to Automobiles category 
+3.post the ads according to the test data column",It should display the latest ads (the ad which was posted on 14/11/2017 )  of Automobiles category||It should display the latest ads of that particular category,Medium,,click on latest ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Top rated ads_Manasa,Top rated ads_guest user,"1.Enter url 
+2.navigate to Automobiles categories 
+3.post the ads according to the test data column",It should display the top rated ads (the ad which was given rating as 5 in test data colum) of Automobiles category||It should display the top rated ads of that particular category,Medium,,click on top rated ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Top rated ads_Manasa,Top rated ads_registered user,"1.Enter registered user valid login credentials 
+2.navigate to Automobiles categories page 
+3.post the ads corresponding to the test data column",It should display the top rated ads (the ad which was given rating as 5 in test data colum) of Automobiles category||It should display the top rated ads of that particular category,Medium,,click on top rated ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+Top rated ads_Manasa,Top rated ads_power user,"1.Enter power user valid login credentials 
+2.navigate to Automobiles categories page 
+3.post the ads according to the steps of the test data column",It should display the top rated ads (the ad which was given rating as 5 in test data colum) of Automobiles category||It should display the top rated ads of that particular category,Medium,,click on top rated ads||Repeat the above steps for all the categories and sub categories,,,,
+,,,,,,,,,,
+My favourites_Manasa,My favourites_registered user,"1.Enter registered user valid login credentials
+2.Navigate to Automobiles category  ",It should navigate to the another page displaying different ads||Is should navigate to another page another page displaying the details of the ad||The ad should be added to the favourites list||It should display the favourite ads for that user,Medium,,click on view ads||select an ad from the list of the displayed ads||add the ad to the favourites||click on favourite ads,,,,
+,,,,,,,,,,
+My favourites_Manasa,My favourites_power user,"1.Enter power user valid login credentials 
+2.Naviagate to Automobiles category",It should navigate to the another page displaying different ads||Is should navigate to another page another page displaying the details of the ad||The ad should be added to the favorites list||It should display the favorite ads for that user,Medium,,click on view ads||select an ad from the list of the displayed ads||add the ad to the favorites||click on favorite ads,,,,
+,,,,,,,,,,
+Notify ads_Manasa,Notify ads registered user,"1.Enter registered user valid login credentials 
+2.post an ad in the user selected category(call R_03_Ts_01_TC_003)",The user should get an email showing notification of new ads for the selected category||The user should get an email showing notification of new ads for the selected category,Medium,,click on notify new ads ||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Notify ads_Manasa,Notify ads power user,"1.Enter power user valid login credentials 
+2.post an ad in the user selected category(call R_03_Ts_01_TC_003)",The user should get an email showing notification of new ads for the selected category||The user should get an email showing notification of new ads for the selected category,Medium,,click on notify new ads ||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Search_Manasa,Search guest users,1.Enter urn and navigate to the homepage of the application 2.select the Automobiles category,It should display all ads and information related to Automobiles category||It should display all ads and information related to selected category,Medium,,Type the data that you want to search for in the search box||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Search_Manasa,Search registered users,"1.login with registered user credentials 
+2.navigate to Automobiles category",It should display all ads and information related to Automobiles category||It should display all ads and information related to selected category,Medium,,Type the data that you want to search for in the search box||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Search_Manasa,Search power users,"1.login with power user credentials 
+2.navigate to Automobiles category",It should display all ads and information related to Automobiles category||It should display all ads and information related to selected category,Medium,,Type the data that you want to search for in the search box||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Selecting ad_Manasa,selecting ad guest user,Enter urn and navigate to Automobiles categories page,It should navigate to another page displaying the selected ad information||It should navigate to another page displaying the selected ad information of selected category,Medium,,click on the ad which is already in the selected category||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Selecting ad_Manasa,selecting ad registered user,"1.Enter registered user valid login credentials 
+2.navigate to Automobiles categories page",It should navigate to another page displaying the selected ad information||It should navigate to another page displaying the selected ad information of selected category,Medium,,click on the ad which is already in the selected category||Repeat the above step for all categories,,,,
+,,,,,,,,,,
+Selecting ad_Manasa,selecting ad power user,"1.Enter power user valid login credentials 
+2.navigate to Automobiles categories page",It should navigate to another page displaying the selected ad information||It should navigate to another page displaying the selected ad information of selected category,Medium,,click on the ad which is already in the selected category||Repeat the above step for all categories,,,,
