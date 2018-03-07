@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14087" started-at="2018-03-07T08:38:34Z" finished-at="2018-03-07T08:38:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14087" started-at="2018-03-07T08:38:34Z" finished-at="2018-03-07T08:38:49Z">
+      <class name="com.Chiselon.ColourClassifieds.UItest.TC2_postad">
+        <test-method status="PASS" signature="bftest()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.TC2_postad@1b7a79b]" name="bftest" is-config="true" duration-ms="6723" started-at="2018-03-07T14:08:34Z" finished-at="2018-03-07T14:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bftest -->
+        <test-method status="PASS" signature="TC2_postadd()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.TC2_postad@1b7a79b]" name="TC2_postadd" duration-ms="7329" started-at="2018-03-07T14:08:41Z" finished-at="2018-03-07T14:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_postadd -->
+      </class> <!-- com.Chiselon.ColourClassifieds.UItest.TC2_postad -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
