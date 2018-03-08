@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6" started-at="2018-02-14T18:57:33Z" finished-at="2018-02-14T18:57:33Z">
+  <suite name="Default suite" duration-ms="49934" started-at="2018-03-08T05:11:35Z" finished-at="2018-03-08T05:12:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6" started-at="2018-02-14T18:57:33Z" finished-at="2018-02-14T18:57:33Z">
+    <test name="Default test" duration-ms="49934" started-at="2018-03-08T05:11:35Z" finished-at="2018-03-08T05:12:24Z">
+      <class name="com.chiselon.colourclassifieds.pages.Delete_adv">
+        <test-method status="PASS" signature="deleteAdv()[pri:0, instance:com.chiselon.colourclassifieds.pages.Delete_adv@1b26f7b2]" name="deleteAdv" duration-ms="49919" started-at="2018-03-08T10:41:35Z" finished-at="2018-03-08T10:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAdv -->
+      </class> <!-- com.chiselon.colourclassifieds.pages.Delete_adv -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
