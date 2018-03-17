@@ -1,0 +1,7 @@
+com\chiselon\colourclassifieds\pages\HomePage.class
+com\chiselon\colourclassifieds\pages\LoginPage.class
+com\chiselon\colourclassifieds\uiTest\ColourClassifieds.class
+com\chiselon\colourclassifieds\pages\RegistrationPage.class
+com\chiselon\colourclassifieds\utilites\BaseUtil.class
+com\chiselon\colourclassifieds\utilites\Demo1.class
+com\chiselon\pratice\common\TestConstants.class
