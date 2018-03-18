@@ -13,7 +13,7 @@ public class ColourClassifiedsTest
 	RegistrationPage register=new RegistrationPage(driver);
 	
 	@Test(priority=1)
-	public void colourClassifiedsRegistration(){
+	public void colourClassifiedsRegistration() throws Exception{
 		register.navigateToRegisterPage();
 		register.enterRegisterationFields();
 		register.setHideEmailbox();
@@ -22,7 +22,8 @@ public class ColourClassifiedsTest
 	
 	/*
 	@Test(priority=2)
-	public void colourClassifiedsLogin(){
+	public void colourClassifiedsLogin()
+	{
 		
 	}
 	

@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
-
 import com.chiselon.colourclassifieds.utilites.BaseUtil;
 
 public class RegistrationPage 
@@ -19,7 +17,7 @@ public class RegistrationPage
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(how= How.LINK_TEXT,using="register.php")
+	@FindBy(how= How.XPATH,using="//a[text()='Register']")
 	private static WebElement Registerlink;
 	
 	@FindBy(how= How.XPATH,using="//u[contains(text(),'ColourClassifieds.com')]")
@@ -53,14 +51,14 @@ public class RegistrationPage
 	private static WebElement msgRgstnSuccessful;
 	
 
-	public void navigateToRegisterPage(){
+	public void navigateToRegisterPage() throws Exception{
 	
 		driver.get(BaseUtil.excel("sheet1",1, 1));
 		Registerlink.click();
 		
 	}
 	
-	public void enterRegisterationFields(){
+	public void enterRegisterationFields() throws Exception{
 		txtEmailAddress.sendKeys(BaseUtil.excel("sheet1",5, 1));
 		txtFullname.sendKeys(BaseUtil.excel("sheet1",7, 1));
 		txtPassword.sendKeys(BaseUtil.excel("sheet1",9, 1));
