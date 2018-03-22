@@ -27,7 +27,7 @@ public class Base {
 			}
 			else 
 			{
-				System.setProperty("webdriver.ie.driver","E:\\chiselon\\workspace_24-jan-2018\\Classfieds\\drivers\\IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver","Driver\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 			}
 		}

@@ -1,7 +1,5 @@
 package com.chiselon.colourclassifieds.pages;
 
-
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,8 +10,9 @@ import com.chiselon.colourclassifieds.utilites.BaseUtil;
 public class RegistrationPage 
 {
 	static WebDriver driver;
-	public RegistrationPage(WebDriver driver){
-		this.driver=driver;
+	public RegistrationPage(WebDriver driver)
+	{
+		this.driver=driver;		
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -51,27 +50,32 @@ public class RegistrationPage
 	private static WebElement msgRgstnSuccessful;
 	
 
-	public void navigateToRegisterPage() throws Exception{
+	public void navigateToRegisterPage() throws Exception
+	{
 	
 		driver.get(BaseUtil.excel("sheet1",1, 1));
-		Registerlink.click();
+		
 		
 	}
 	
-	public void enterRegisterationFields() throws Exception{
+	public void enterRegisterationFields() throws Exception
+	{
+		Registerlink.click();
 		txtEmailAddress.sendKeys(BaseUtil.excel("sheet1",5, 1));
 		txtFullname.sendKeys(BaseUtil.excel("sheet1",7, 1));
 		txtPassword.sendKeys(BaseUtil.excel("sheet1",9, 1));
 		txtConfirmPassword.sendKeys(BaseUtil.excel("sheet1",11, 1));
 	}
 	
-	public void setHideEmailbox(){
+	public void setHideEmailbox()
+	{
 		Checkboxagreeconditions.click();
 		btnRegister.click();
 		
 	}
 	
-	public String RgstnSuccessfulValidationmsg(){
+	public String RgstnSuccessfulValidationmsg()
+	{
 		return msgRgstnSuccessful.getText();
 		
 	}

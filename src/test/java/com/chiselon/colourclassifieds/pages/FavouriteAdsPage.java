@@ -4,23 +4,32 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import com.chiselon.colourclassifieds.uiTest.Login_Excel;
 import com.chiselon.colourclassifieds.utilites.BaseUtil;
 
-public class MyFavorites_adv extends BaseUtil
+public class FavouriteAdsPage
 {
+	WebDriver driver;
+	public FavouriteAdsPage(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
 	@Test
 	public static void myFavorites_adv()
 	{
-		String fav_list_text = null;
-	
-		Login_Excel.login();
-		BaseUtil.click(driver,"//a[@title='Front page']");
-		int size = driver.findElements(By.xpath("((//table)[9]//tr/td/a)")).size();
+		
+		@FindBy(how=How.XPATH,using= "//a[@title='My Favorites']")
+		private WebElement MyFavClick;
+		
+		/*int size = driver.findElements(By.xpath("((//table)[9]//tr/td/a)")).size();
 		System.out.println(size);
 		for(int i=1 ; i <= size ; i++)
 		{
@@ -88,9 +97,9 @@ public class MyFavorites_adv extends BaseUtil
 				
 							
 						}
-				}
+				}*/
 				
-				
+		
 				
 				
 			}

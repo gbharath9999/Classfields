@@ -25,10 +25,12 @@ public  static FileInputStream file1;
 public  static XSSFWorkbook workbook;
 public static XSSFSheet sheet;
 public static Select select;
-public static String filePath="E:/bharath/cc/colourclassifieds/TestData.xlsx";
+public static String filePath="D:\\Eclipse-1.1\\pageobject model\\ColourClassifieds\\TestData.xlsx";
 private static String cellValue;
 
-public BaseUtil(WebDriver driver){
+
+public BaseUtil(WebDriver driver)
+{
 	this.driver=driver;
 }
 		public static void getUrl(String UrlValue)
@@ -106,20 +108,21 @@ public BaseUtil(WebDriver driver){
 	
 		
 			 file1 = new FileInputStream(filePath);
-			 try {
+			 try 
+			 {
 				workbook = new XSSFWorkbook(file1);
-			} catch (IOException e) {
+			 } 
+			 catch (IOException e) 
+			 {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+			 }
 			 sheet = workbook.getSheet(sheetname);
 			 cellValue=sheet.getRow(Row).getCell(Col).getStringCellValue();
 			 return cellValue;
 		
-		
-		
-		
 	}
+	
 	public static Select ByValue(WebDriver driver ,String xpathValue ,String value )
 	{
 		try

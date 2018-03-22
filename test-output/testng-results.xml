@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5911" started-at="2018-03-17T15:46:21Z" finished-at="2018-03-17T15:46:27Z">
+  <suite name="Default suite" duration-ms="4615" started-at="2018-03-22T15:46:18Z" finished-at="2018-03-22T15:46:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5911" started-at="2018-03-17T15:46:21Z" finished-at="2018-03-17T15:46:27Z">
+    <test name="Default test" duration-ms="4615" started-at="2018-03-22T15:46:18Z" finished-at="2018-03-22T15:46:23Z">
       <class name="com.chiselon.colourclassifieds.uiTest.ColourClassifiedsTest">
-        <test-method status="PASS" signature="colourClassifiedsRegistration()[pri:1, instance:com.chiselon.colourclassifieds.uiTest.ColourClassifiedsTest@3ca036]" name="colourClassifiedsRegistration" duration-ms="5868" started-at="2018-03-17T21:16:21Z" finished-at="2018-03-17T21:16:27Z">
+        <test-method status="PASS" signature="colourClassifiedsRegistration()[pri:1, instance:com.chiselon.colourclassifieds.uiTest.ColourClassifiedsTest@4bb45b]" name="colourClassifiedsRegistration" duration-ms="2241" started-at="2018-03-22T21:16:18Z" finished-at="2018-03-22T21:16:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- colourClassifiedsRegistration -->
+        <test-method status="PASS" signature="latestadssize()[pri:2, instance:com.chiselon.colourclassifieds.uiTest.ColourClassifiedsTest@4bb45b]" name="latestadssize" duration-ms="2325" started-at="2018-03-22T21:16:20Z" finished-at="2018-03-22T21:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- latestadssize -->
       </class> <!-- com.chiselon.colourclassifieds.uiTest.ColourClassifiedsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
